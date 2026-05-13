@@ -1,5 +1,7 @@
 ergebnisse = []
 def menu():
+    print("🆃🅰🆂🅲🅷🅴🅽🆁🅴🅲🅷🅽🅴🆁")
+    print()
     print("1. Rechnen")
     print("2. Ergebnisse anzeigen")
     print("3. Programm beenden")
@@ -34,6 +36,10 @@ while True:
     elif auswahl == 3:
         print("Programm wird beendet.")
         exit()
+    else:
+        print("Ungültige Option. Bitte versuche es erneut.")
+
+
     else:
         print("Ungültige Option. Bitte versuche es erneut.")
 
