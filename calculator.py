@@ -1,3 +1,5 @@
+ergebnisse = []
+
 def rechnen(nummer1, nummer2, operation):
     if operation == "+":
         return nummer1 + nummer2
@@ -16,6 +18,8 @@ for i in range (10):
     operation = input("Gib die Operation ein (+, -, *, /): ")
 
     ergebnis = rechnen(nummer1, nummer2, operation)
+    ergebnisse.append(ergebnis)
     print(f"Ergebnis: {ergebnis}")
+    print(f"Ergebnisse bisher: {ergebnisse}")
 
 rechnen()
