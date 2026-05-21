@@ -18,7 +18,10 @@ durschnittspreis = sum(preise) / len(preise)
 min = min(preise)
 max = max(preise)
 
-print("Preisliste:")
+print("███████████████████████████████████████")
+print("███           P R E I S E           ███")
+print("███████████████████████████████████████")
+print()
 
 for nummer, preis in enumerate(preise, start=1):
     print(f"{nummer}. {preis:.2f}€")
